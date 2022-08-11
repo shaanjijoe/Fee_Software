@@ -1,0 +1,46 @@
+z1status: Used at time of database setup
+y1status: Used to edit functionalities of database admin level
+a1status: Used to manipulate database
+
+z1_filecreation
+{
+    Func: Program to create database file with required fields as per
+    user or by default at program location.
+
+    Return type: A list containing field names of new database.
+}
+
+y1_editfileattributes
+{
+    Func: Program to edit database attributes.
+
+    Return type: A list containing new field names of new database.
+}
+
+a1_editdata
+{
+    Func: Program to edit database data.
+
+    Return type: A string indicating edit status.
+}
+
+a1_getdata
+{
+    Func: Program to get specific kernel data according to admission no.
+
+    Return type: A dictionary containing existing data in database.
+}
+
+a1_insertdata
+{
+    Func: Program to insert data into database.
+
+    Return type: A string indicating insert status.
+}
+
+a1_removedata
+{
+    Func: Program to remove data from database.
+
+    Return type: A string indicating deletion status.
+}
